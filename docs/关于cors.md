@@ -48,7 +48,7 @@ app.use(cors({
 
 cors方法可以传入一个对象options
 
-`
+```js
 {
     origin：允许发来请求的域名，对应响应的`Access-Control-Allow-Origin`，
     allowMethods：允许的方法，默认'GET,HEAD,PUT,POST,DELETE'，对应`Access-Control-Allow-Methods`，
@@ -57,4 +57,4 @@ cors方法可以传入一个对象options
     maxAge：也是在预请求的时候才会返回，标明了这个预请求的响应所返回信息的最长有效期，对应`Access-Control-Max-Age`
     credentials：标示该响应是合法的，对应`Access-Control-Allow-Credentials`
 }
-`
+```
