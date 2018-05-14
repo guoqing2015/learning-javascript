@@ -1,7 +1,7 @@
-# Css 学习
+# Javascript 学习
 
 ## docs
-* [compass自动生成雪碧图](docs/compass自动生成雪碧图.md)
+* [关于cors](docs/关于cors.md)
 
 
 
